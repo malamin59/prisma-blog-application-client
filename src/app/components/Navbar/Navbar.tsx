@@ -1,5 +1,6 @@
 "use client";
 
+import { ModeToggle } from "@/components/layout/ModeToggle";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -52,6 +53,7 @@ export default function Navbar() {
             Sign Up
           </Link>
         </div>
+        <ModeToggle/>
       </div>
     </nav>
   );
